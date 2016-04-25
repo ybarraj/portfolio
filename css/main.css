@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 500px) {
-    p {
-        display: none;
+@media only screen and (min-width: 1000px) {
+    .wraprow {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap !important;
+
     }
 }
 
@@ -78,6 +80,27 @@
 .mainTitle {
     text-align: right;
     margin: 1px;
+    font-family: 'Rock Salt', cursive;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
